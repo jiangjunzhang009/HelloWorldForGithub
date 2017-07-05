@@ -1,5 +1,7 @@
 # HelloWorldForGithub
 
+Let's explore the RebaseMerage!
+
 Let's explore the SquashMerage!
 
 Hello ladies and gentleman, It's nice to meet you.
