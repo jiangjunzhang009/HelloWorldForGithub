@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DBConnStr-Web.config Connection String" description="DBConnStr Connection String used in web.config by the application to access the database." defaultValue="data source=tcp:sqlserver-vm.database.chinacloudapi.cn,1433;initial catalog=TransferStorageNode;user id=DbUserLogin;password=Qq11111111;multipleactiveresultsets=True;connect timeout=300;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CustomProjects\\Practice\\InformationCollectionPlatform\\InformationCollectionPlatform\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DBConnStr']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>页面标题</title>
+</head>
+<!-- <script src="zepto.js"></script> -->
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.js"></script>
+
+<body>
+<input type="button" id="btn" value="type=button" />
+<input type="button" id="btnZero" value="PcAuto" />
+
+</body>
+<script>
+    $(function(){
+        $("#btn").click(function(){
+			var reqdata={
+				id:'!@#$%^&*()_+{}|:"<>?11’\'1',
+				name:"张三",
+				create_time:"2012-12-12 12:12:12",
+				helloWebApi:'jiangjun009'
+			};
+           var reqdatajson = JSON.stringify(reqdata);
+            alert("请求内容："+reqdatajson);      
+			var url="http://receiveplatformmessage.chinacloudsites.cn/api/ReceiveMessageXcar";
+            $.ajax({               
+               url:url,
+                data: reqdatajson,
+                dataType: "json", 
+                type: "POST",
+                success:function(data, status){
+                    alert("响应内容："+data)
+                },
+                error:function(r,s,m){
+                    console.log('Error:\n'+r+"---"+s+"-----------"+m)
+                }                 
+            });
+        });
+        $("#btnZero").click(function(){
+			var reqdata={
+				id:"111",
+				name:"张三",
+				create_time:"2012-12-12 12:12:12",
+				helloWebApi:'jiangjun009'
+			};
+           var reqdatajson = JSON.stringify(reqdata);
+            alert("请求内容："+reqdatajson);      
+			var url="http://receiveplatformmessage.chinacloudsites.cn/api/ReceiveMessagePcAuto";
+            $.ajax({               
+               url:url,
+                data: reqdatajson,
+                dataType: "json", 
+                type: "POST",
+                success:function(data, status){
+                    alert("响应内容："+data)
+                },
+                error:function(r,s,m){
+                    console.log('Error:\n'+r+"---"+s+"-----------"+m)
+                }                 
+            });
+        });
+    });
+    </script>
+</html>
