@@ -6,11 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\ReceiveMessageController.cs" />
+    <Compile Remove="Controllers\ReceiveMessageXcarController.cs" />
+    <Compile Remove="Controllers\ValuesController.cs" />
     <Compile Remove="Services\DALService.cs" />
-    <Compile Remove="Services\SqlHelper.cs" />
+    <Compile Remove="Services\ReceiveMessageService.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\ReceivePlatformInformation - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\ReceivePlatformInformation - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\ReceivePlatformMessage - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\ReceivePlatformMessage - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
   <ItemGroup>

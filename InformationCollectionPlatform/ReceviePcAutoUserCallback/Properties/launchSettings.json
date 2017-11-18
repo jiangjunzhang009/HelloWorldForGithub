@@ -11,8 +11,8 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
-      //"launchUrl": "api/ReceiveMessagePcAuto",
+      //"launchUrl": "api/values",
+      "launchUrl": "api/ReceiveNormalCallback",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -20,8 +20,8 @@
     "ReceviePcAutoUserCallback": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
-      //"launchUrl": "api/ReceiveMessagePcAuto",
+      //"launchUrl": "api/values",
+      "launchUrl": "api/ReceiveNormalCallback",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },

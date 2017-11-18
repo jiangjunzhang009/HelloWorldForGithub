@@ -9,5 +9,7 @@ namespace ReceviePcAutoUserCallback.Models
     {
         public string SqlServerConnection { get; set; }
         public string MySqlConnection { get; set; }
+        public string MySqlDevMediaDissectorConnection { get; set; }
+        public string MySqlProMediaDissectorConnection { get; set; }
     }
 }

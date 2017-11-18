@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "targets": {
     ".NETCoreApp,Version=v1.1": {
       "Dapper/1.50.2": {
@@ -11061,19 +11061,38 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
       "projectUniqueName": "D:\\Projects\\ExperimentProjects\\HelloWorldForGithub\\InformationCollectionPlatform\\ReceviePcAutoUserCallback\\ReceviePcAutoUserCallback.csproj",
       "projectName": "ReceviePcAutoUserCallback",
       "projectPath": "D:\\Projects\\ExperimentProjects\\HelloWorldForGithub\\InformationCollectionPlatform\\ReceviePcAutoUserCallback\\ReceviePcAutoUserCallback.csproj",
+      "packagesPath": "C:\\Users\\E570\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\ExperimentProjects\\HelloWorldForGithub\\InformationCollectionPlatform\\ReceviePcAutoUserCallback\\obj\\",
       "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\E570\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
       "originalTargetFrameworks": [
         "netcoreapp1.1"
       ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "http://Nuget.gridsum.com/nuget/default/": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

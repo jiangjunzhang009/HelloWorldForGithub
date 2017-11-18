@@ -14,6 +14,10 @@ namespace ReceviePcAutoUserCallback.Models.AbstractModel
         /// 创建时间
         /// </summary>
         public DateTime CreateDatetime { get; set; }
+        /// <summary>
+        /// 更新时间
+        /// </summary>
+        public DateTime UpdateDatetime { get; set; }
 
     }
 }
