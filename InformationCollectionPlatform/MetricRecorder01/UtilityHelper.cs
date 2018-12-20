@@ -9,6 +9,7 @@ namespace MetricRecorder01
         public static string GetLibraryName()
         {
             StringBuilder debugAssembly = new StringBuilder();
+            debugAssembly.AppendLine($"Environment.UserDomainName: {Environment.UserDomainName}, Environment.ProcessorCount: {Environment.ProcessorCount}");
             debugAssembly.AppendLine($"Assembly.GetCallingAssembly().FullName: {Assembly.GetCallingAssembly().FullName}");
             debugAssembly.AppendLine($"Assembly.GetEntryAssembly().FullName: {Assembly.GetEntryAssembly().FullName}");
             debugAssembly.AppendLine($"Assembly.GetExecutingAssembly().FullName: {Assembly.GetExecutingAssembly().FullName}");
