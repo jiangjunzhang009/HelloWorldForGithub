@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformationCollectionPlatform", "InformationCollectionPlatform\InformationCollectionPlatform.csproj", "{B05A03DF-61B8-4EC0-BB20-91A5377BB7F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetricRecorder", "MetricRecorder\MetricRecorder.csproj", "{A171177C-89D7-473A-8308-197C406A0E29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{B05A03DF-61B8-4EC0-BB20-91A5377BB7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B05A03DF-61B8-4EC0-BB20-91A5377BB7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B05A03DF-61B8-4EC0-BB20-91A5377BB7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A171177C-89D7-473A-8308-197C406A0E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A171177C-89D7-473A-8308-197C406A0E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A171177C-89D7-473A-8308-197C406A0E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A171177C-89D7-473A-8308-197C406A0E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C786EF7E-9CAC-43CF-9192-6B184A1BBAB4}
 	EndGlobalSection
 EndGlobal
