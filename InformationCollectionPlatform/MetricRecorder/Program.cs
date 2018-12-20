@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MetricRecorder01;
+using System;
 
 namespace MetricRecorder
 {
@@ -8,7 +9,8 @@ namespace MetricRecorder
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("---------------Metric Recorder: logistic information---------------");
-            //Console.ReadKey();
+            Console.WriteLine($"UtilityHelper.GetLibraryName(): {UtilityHelper.GetLibraryName()}");
+            Console.ReadKey();
         }
     }
 }
